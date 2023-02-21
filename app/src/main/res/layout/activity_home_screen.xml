@@ -9,6 +9,7 @@
 
     <EditText
         android:layout_marginStart="16dp"
+        android:paddingTop="30dp"
         android:paddingBottom="10dp"
         android:hint="  Explore"
         android:layout_width="300dp"
