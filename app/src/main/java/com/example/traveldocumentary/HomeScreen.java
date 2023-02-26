@@ -16,8 +16,12 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.activity_home_screen);
 
         String[] tabs = {" Upcoming Travel "," Past Travels"," Recommended Travels "};
-        LinearLayout rootview = (LinearLayout) findViewById(R.id.rootview);
 
+        ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, tabs);
+        ListView listView = (ListView) findViewById(R.id.list);
+        listView.setAdapter(itemsAdapter);
+        
+        //LinearLayout rootview = (LinearLayout) findViewById(R.id.rootview);
 //        for(int i =0;i<tabs.length;i++){
 //            TextView word = new TextView(this);
 //            word.setText(tabs[i]);
@@ -26,9 +30,7 @@ public class HomeScreen extends AppCompatActivity {
 //            rootview.addView(word);
 //        }
 
-        ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, tabs);
-        ListView listView = (ListView) findViewById(R.id.list);
-        listView.setAdapter(itemsAdapter);
+
 
 
     }
