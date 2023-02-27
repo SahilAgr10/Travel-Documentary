@@ -27,14 +27,5 @@ public class HomeScreen extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(itemsAdapter);
 
-        //LinearLayout rootview = (LinearLayout) findViewById(R.id.rootview);
-//        for(int i =0;i<tabs.length;i++){
-//            TextView word = new TextView(this);
-//            word.setText(tabs[i]);
-//            word.setPadding(40,40,40,40);
-//            word.setTextSize(20);
-//            rootview.addView(word);
-//        }
-
     }
 }
