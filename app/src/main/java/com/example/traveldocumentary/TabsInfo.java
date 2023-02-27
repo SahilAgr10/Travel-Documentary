@@ -1,40 +1,26 @@
 package com.example.traveldocumentary;
 
 public class TabsInfo {
-    static String cityPlace ;
-    static String dateVisited;
-    static int imageID;
+    private String cityPlace ;
+    private String dateVisited;
+    private int imageID;
 
-    public TabsInfo(String cityPlace, String dateVisited , int imageID){
-        this.cityPlace=cityPlace;
-        this.dateVisited=dateVisited;
-        this.imageID=imageID;
-
+    public TabsInfo(String cityPlace, String dateVisited , int imageID ){
+        this.cityPlace =cityPlace;
+        this.dateVisited =dateVisited;
+        this.imageID =imageID;
     }
 
-    public static String getCityPlace() {
+    public String getCityPlace() {
         return cityPlace;
     }
-
-    public static void setCityPlace(String cityPlace) {
-        TabsInfo.cityPlace = cityPlace;
-    }
-
-    public static String getDateVisited() {
+    public  String getDateVisited() {
         return dateVisited;
     }
-
-    public static void setDateVisited(String dateVisited) {
-        TabsInfo.dateVisited = dateVisited;
-    }
-
-    public static int getImageID() {
+    public int getImageID() {
         return imageID;
     }
 
-    public static void setImageID(int imageID) {
-        TabsInfo.imageID = imageID;
-    }
 
 
 }
