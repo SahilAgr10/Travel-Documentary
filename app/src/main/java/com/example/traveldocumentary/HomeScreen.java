@@ -17,13 +17,13 @@ public class HomeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
-        ArrayList<TabsInfo> list = new ArrayList<>();
-        list.add(new TabsInfo("Mumbai","March 2022",204));
-        list.add(new TabsInfo("Delhi","May 2022",205));
-        list.add(new TabsInfo("Uttarakhand","May 2022",206));
+        ArrayList<TabsInfo> list = new ArrayList<TabsInfo>();
+        list.add(new TabsInfo("Mumbai","March 2022",R.drawable.mumbai));
+        list.add(new TabsInfo("Delhi","May 2022",R.drawable.uttarakhand));
+        list.add(new TabsInfo("Uttarakhand","May 2022",R.drawable.mumbai));
 
 
-        ArrayAdapter itemsAdapter = new ArrayAdapter(this,R.layout.tabslayout);
+        TabsInfoAdapter itemsAdapter = new TabsInfoAdapter(this,list);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(itemsAdapter);
 

@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -30,10 +31,10 @@ public class TabsInfoAdapter extends ArrayAdapter<TabsInfo> {
         place.setText(currentTab.getCityPlace());
 
         TextView dateVisted = (TextView) listItemView.findViewById(R.id.date);
-        place.setText(currentTab.getCityPlace());
+        dateVisted.setText(currentTab.getDateVisited());
 
-        TextView imageId = (TextView) listItemView.findViewById(R.id.imageId);
-        imageId.setText(currentTab.getImageID());
+        ImageView imageId = (ImageView) listItemView.findViewById(R.id.imageId);
+        imageId.setImageResource(currentTab.getImageID());
 
         return listItemView;
     }
