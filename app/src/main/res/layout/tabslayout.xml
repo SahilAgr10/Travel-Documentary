@@ -6,13 +6,14 @@
     android:orientation="horizontal"
     android:paddingStart="15dp"
     android:paddingTop="20dp"
+    android:paddingBottom="5dp"
     android:id="@+id/tabLayout">
 
 
     <ImageView
         android:src="@drawable/mumbai"
-        android:layout_width="32dp"
-        android:layout_height="39dp"
+        android:layout_width="52dp"
+        android:layout_height="59dp"
         android:id="@+id/imageId"/>
 
     <LinearLayout
@@ -21,19 +22,21 @@
         android:paddingStart="10dp"
         android:orientation="vertical">
         <TextView
+            android:layout_marginTop="5dp"
             android:text="Mumbai"
             android:textStyle="bold"
+            android:textSize="20dp"
             android:fontFamily="sans-serif-condensed"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/place"/>
 
         <TextView
             android:id="@+id/date"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="28 March 2022"
-            android:textSize="08sp"
+            android:textSize="15sp"
             android:textColor="@color/black"/>
     </LinearLayout>
 
