@@ -1,6 +1,7 @@
 package com.example.traveldocumentary;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,7 +38,7 @@ public class TabsInfoAdapter extends ArrayAdapter<TabsInfo> {
         if(currentTab.hasImage()){
             imageId.setImageResource(currentTab.getImageID());
         }else{
-            imageId.setVisibility(View.GONE);
+            imageId.setImageResource(R.drawable.ic_baseline_beach_access_24);
         }
 
         return listItemView;

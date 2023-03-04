@@ -27,7 +27,7 @@ public class HomeScreen extends AppCompatActivity {
 
         ArrayList<TabsInfo> list = new ArrayList<TabsInfo>();
         list.add(new TabsInfo("Mumbai","March 2022",R.drawable.mumbai));
-        list.add(new TabsInfo("Delhi","May 2022",R.drawable.uttarakhand));
+        list.add(new TabsInfo("Delhi","May 2022"));
         list.add(new TabsInfo("Uttarakhand","May 2022",R.drawable.screen1));
 
 

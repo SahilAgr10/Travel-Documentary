@@ -9,8 +9,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/screen1"
-        android:scaleType="center"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/tbackground2" />
 
 
 </RelativeLayout>
