@@ -34,7 +34,11 @@ public class TabsInfoAdapter extends ArrayAdapter<TabsInfo> {
         dateVisted.setText(currentTab.getDateVisited());
 
         ImageView imageId = (ImageView) listItemView.findViewById(R.id.imageId);
-        imageId.setImageResource(currentTab.getImageID());
+        if(currentTab.hasImage()){
+            imageId.setImageResource(currentTab.getImageID());
+        }else{
+            imageId.setVisibility(View.GONE);
+        }
 
         return listItemView;
     }

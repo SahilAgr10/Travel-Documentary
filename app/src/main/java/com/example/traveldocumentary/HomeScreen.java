@@ -3,6 +3,8 @@ package com.example.traveldocumentary;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -17,15 +19,24 @@ public class HomeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
+//        TextView textView = new TextView(this);
+//        textView.setText("SAHIL");
+//        textView.setTextSize(50);
+//        LinearLayout view = (LinearLayout) findViewById(R.id.rootview);
+//        view.addView(textView);
+
         ArrayList<TabsInfo> list = new ArrayList<TabsInfo>();
         list.add(new TabsInfo("Mumbai","March 2022",R.drawable.mumbai));
         list.add(new TabsInfo("Delhi","May 2022",R.drawable.uttarakhand));
-        list.add(new TabsInfo("Uttarakhand","May 2022",R.drawable.mumbai));
+        list.add(new TabsInfo("Uttarakhand","May 2022",R.drawable.screen1));
 
 
         TabsInfoAdapter itemsAdapter = new TabsInfoAdapter(this,list);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(itemsAdapter);
+
+
+
 
     }
 }
