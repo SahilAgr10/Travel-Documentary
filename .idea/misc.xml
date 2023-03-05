@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/drawable/backd.xml" value="0.1595" />
+        <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/drawable/imgshape.xml" value="0.1595" />
         <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/drawable/shape.xml" value="0.1" />
-        <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/layout/activity_home_screen.xml" value="0.2" />
+        <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/layout-land/demo.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/layout/activity_home_screen.xml" value="0.16417272338606242" />
         <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/layout/activity_main.xml" value="0.1859375" />
+        <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/layout/demo.xml" value="0.2" />
         <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/layout/tabslayout.xml" value="0.33" />
       </map>
     </option>

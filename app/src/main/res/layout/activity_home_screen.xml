@@ -8,25 +8,36 @@
     android:id="@+id/rootview"
     tools:context=".HomeScreen">
 
-    <EditText
-        android:layout_marginStart="16dp"
-        android:paddingTop="30dp"
-        android:paddingBottom="10dp"
-        android:hint="  Explore"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/ic_baseline_search_24"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@drawable/greece"
+        android:orientation="vertical">
+        <EditText
+            android:layout_marginStart="16dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="10dp"
+            android:hint="  Explore"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_search_24"/>
 
-    <ImageView
-        android:layout_marginTop="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:scaleType="center"
-        android:src="@drawable/t2"/>
+
+    </LinearLayout>
 
     <ListView
+        android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/list"/>
+        android:layout_height="460dp" />
 
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_baseline_add_location_alt_24" />
 </LinearLayout>

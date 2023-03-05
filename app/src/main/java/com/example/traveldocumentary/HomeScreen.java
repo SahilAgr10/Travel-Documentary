@@ -29,6 +29,9 @@ public class HomeScreen extends AppCompatActivity {
         list.add(new TabsInfo("Mumbai","March 2022",R.drawable.mumbai));
         list.add(new TabsInfo("Delhi","May 2022"));
         list.add(new TabsInfo("Uttarakhand","May 2022",R.drawable.screen1));
+        list.add(new TabsInfo("Rajasthan","Upcoming"));
+        list.add(new TabsInfo("Himachal","Upcoming",R.drawable.mumbai));
+        list.add(new TabsInfo("Kasol","Upcoming"));
 
 
         TabsInfoAdapter itemsAdapter = new TabsInfoAdapter(this,list);
