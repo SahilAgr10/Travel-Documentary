@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1595" />
         <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/drawable/backd.xml" value="0.1595" />
+        <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/drawable/ic_baseline_add_location_alt_24.xml" value="0.1595" />
+        <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/drawable/ic_baseline_balcony_24.xml" value="0.1595" />
+        <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/drawable/ic_baseline_beach_access_24.xml" value="0.1595" />
+        <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1595" />
+        <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1595" />
         <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/drawable/imgshape.xml" value="0.1595" />
         <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/drawable/shape.xml" value="0.1" />
         <entry key="..\:/Users/agraw/Downloads/TravelDocumentary/app/src/main/res/layout-land/demo.xml" value="0.19635416666666666" />
