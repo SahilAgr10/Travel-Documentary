@@ -10,7 +10,7 @@
     tools:context=".HomeScreen">
 
     <LinearLayout
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="67dp"
         android:background="@color/white"
@@ -45,20 +45,48 @@
 
     </LinearLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="97dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Plan your next Travel Destination"
+        android:textAlignment="center"
+        android:textColor="@color/creamWhite"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/backd">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Plan your Trip +"
+            android:textColor="#e8b37d"
+            android:textSize="22dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_baseline_travel_explore_24"
+            android:layout_marginStart="15dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:src="@drawable/ic_baseline_mode_of_travel_24"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="460dp"
+        android:layout_height="match_parent"
         android:layout_marginTop="40dp"/>
 
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="15dp"
-        android:clickable="true"
-        app:srcCompat="@drawable/ic_baseline_add_location_alt_24" />
 </LinearLayout>

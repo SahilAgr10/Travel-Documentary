@@ -19,7 +19,7 @@ public class HomeScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
-        getWindow().setStatusBarColor(ContextCompat.getColor(HomeScreen.this,R.color.black));
+        getWindow().setStatusBarColor(ContextCompat.getColor(HomeScreen.this,R.color.creamWhiteFaint));
 
 //        TextView textView = new TextView(this);
 //        textView.setText("SAHIL");
