@@ -22,6 +22,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 .append(DestinationContracts.DesinationEntry.TABLE_NAME)
                 .append("(").append(DestinationContracts.DesinationEntry.ROW_ID)
                 .append(" INTEGER PRIMARY KEY AUTOINCREMENT, ")
+                .append(DestinationContracts.DesinationEntry.DESTINATION_NAME)
+                .append("TEXT NOT NULL, ")
                 .append(DestinationContracts.DesinationEntry.DESTINATION_DATE)
                 .append(" TEXT NOT NULL, ")
                 .append(DestinationContracts.DesinationEntry.DESTINATION_SCHEDULE)

@@ -10,9 +10,9 @@ public class DestinationContracts {
     public static final class DesinationEntry implements BaseColumns {
         public final static String TABLE_NAME = "AddDestination"; //Name of database table for Destination storage
         public final static String ROW_ID = BaseColumns._ID;//Unique ID number for the pet (only for use in the database table).
-        public final static String DESTINATION_NAME ="Bombay";
-        public final static String DESTINATION_DATE = "March 2020";
-        public final static String DESTINATION_SCHEDULE = "Upcoming";
+        public final static String DESTINATION_NAME ="destinationName";
+        public final static String DESTINATION_DATE = "date";
+        public final static String DESTINATION_SCHEDULE = "schedule";
 
 
 

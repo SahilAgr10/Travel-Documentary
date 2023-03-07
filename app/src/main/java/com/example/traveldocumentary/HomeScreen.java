@@ -1,6 +1,7 @@
 package com.example.traveldocumentary;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.os.Bundle;
 import android.view.View;
@@ -18,6 +19,7 @@ public class HomeScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
+        getWindow().setStatusBarColor(ContextCompat.getColor(HomeScreen.this,R.color.black));
 
 //        TextView textView = new TextView(this);
 //        textView.setText("SAHIL");

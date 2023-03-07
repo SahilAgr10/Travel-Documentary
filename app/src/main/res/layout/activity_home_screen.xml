@@ -6,29 +6,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/rootview"
+    android:background="@color/white"
     tools:context=".HomeScreen">
 
     <LinearLayout
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
-        android:layout_height="260dp"
-        android:background="@drawable/greece"
+        android:layout_height="67dp"
+        android:background="@color/white"
+        android:paddingStart="10dp"
         android:orientation="vertical">
-        <EditText
-            android:layout_marginStart="16dp"
-            android:paddingTop="30dp"
-            android:paddingBottom="10dp"
-            android:hint="  Explore"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/ic_baseline_search_24"/>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="43dp"
+                android:layout_height="67dp"
+                android:src="@drawable/ic_baseline_menu_open_24" />
+
+            <ImageView
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:src="@drawable/tback1" />
+
+            <ImageView
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:layout_width="97dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_baseline_person_pin_24" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="460dp" />
+        android:layout_height="460dp"
+        android:layout_marginTop="40dp"/>
 
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
