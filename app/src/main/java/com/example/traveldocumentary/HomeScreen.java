@@ -39,9 +39,5 @@ public class HomeScreen extends AppCompatActivity {
         TabsInfoAdapter itemsAdapter = new TabsInfoAdapter(this,list);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(itemsAdapter);
-
-
-
-
     }
 }
